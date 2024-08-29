@@ -5,5 +5,5 @@ let student ={
 	return Object.keys(this);
 	};
 //how to get value of keys
-//let keys = student.getkeys();
-//console.log(keys);
+let keys = student.getkeys();
+console.log(keys);
