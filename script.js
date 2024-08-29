@@ -1,6 +1,7 @@
-//your JS code here. If required.
-let student = {
+let student ={
 	name : "abhi"
-};
-let keys = student.getKeys();
-console.log(keys);
+
+	object.prptotype.getkeys= function() {
+	return object.keys(this);
+	}
+}
