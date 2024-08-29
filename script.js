@@ -1,7 +1,6 @@
 let student ={
 	name : "abhi"
-
-	object.prptotype.getkeys= function() {
-	return object.keys(this);
-	}
-}
+};
+	Object.prptotype.getkeys= function() {
+	return Object.keys(this);
+	};
