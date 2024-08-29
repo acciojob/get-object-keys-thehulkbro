@@ -1,5 +1,5 @@
 // Create an object called student with a property called name
-const student = {
+let student = {
   name: "John Doe"
 };
 
@@ -9,5 +9,5 @@ Object.prototype.getKeys = function() {
 };
 
 // Use the getKeys method on the student object
-const keys = student.getKeys();
+let keys = student.getKeys();
 console.log(keys); // Output: ["name"]
